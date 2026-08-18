@@ -1,0 +1,79 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ===== 虚拟环境 =====
+env/
+venv/
+.venv/
+
+# ===== 密钥与本地配置 =====
+.env
+.env.local
+.env.*.local
+
+# ===== 数据库 / 缓存 / 本地数据 =====
+data/*.db
+data/*.sqlite3
+data/*.sqlite
+*.db
+*.sqlite
+*.sqlite3
+.search_cache.sqlite
+# 保留 data/.gitkeep 占位
+!data/.gitkeep
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== 测试与构建 =====
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+dist/
+build/
+*.egg-info/
+*.tar.gz
+*.whl
+
+# ===== 运行时 =====
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== 临时调试脚本（开源仓库不包含本地辅助脚本）=====
+_debug*.py
+_diagnose*.py
+_do*.py
+_doit.py
+_fix_policy.reg
+_hello*.py
+_inject_style.py
+_launch.bat
+_new_block.txt
+_patch_header.py
+_run_tests.py
+_start*.py
+_start.vbs
+_verify_fix.py
+verify_changes.py
+test_improvements.py
+test_multi_claim.py
+test_render.py
+start_and_test.py
+silent_start.vbs
+*.bat
+*.vbs
+*.reg
